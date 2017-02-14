@@ -7,7 +7,6 @@ oldKey = None
 
 # Loop around the data
 # It will be in the format key\tval
-# Where key is the store name, val is the sale amount
 #
 
 for line in sys.stdin:

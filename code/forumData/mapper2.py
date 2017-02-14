@@ -23,6 +23,7 @@ for line in sys.stdin:
     idtty, title, tags, author, body, node, parent, abs_parent, added, score, state, edited, activityid, activity,revision, extra, ref, count, marked = data
     body = body.replace('<p>', ' ');
     body = body.replace('<\p>', ' ');
+	#remove all punctuation
     body = body.strip().translate(None, string.punctuation);
     #print "{0}\t{1}".format(bodyArr, 1);
     bodyData = body.split(' ');
