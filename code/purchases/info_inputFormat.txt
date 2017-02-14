@@ -1,0 +1,1 @@
+"date"	"time"	"store"	"category"	"amount"	"payment_type"
